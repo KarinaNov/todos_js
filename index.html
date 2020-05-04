@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light mb-5">
+        <a class="navbar-brand" href="#">Todo app</a>
+    </nav>
+    <main>
+        <div class="form-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 mx-auto form-col">
+                        <div class="card card-body">
+                            <form name="add-todo-form">
+                                <div class="form-group">
+                                    <label for="">Title</label>
+                                    <input type="text" name="title" id = "title" class="form-control" >
+                                </div>
+                                <!--/.form-group-->
+                                <div class="form-group">
+                                    <label for="">Text</label>
+                                    <input type="text" name="text" id = "text" class="form-control" disabled>
+                                </div>
+                                <!--/.form-group-->
+                                <button type="submit" class="btn btn-primary" id="btn">Add class</button>
+                            </form>
+                        </div>
+                        <!--/card card-body-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="todos-table mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 mx-auto">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <td>Title</td>
+                                    <td>Text</td>
+                                    <td>Controls</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                               
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
